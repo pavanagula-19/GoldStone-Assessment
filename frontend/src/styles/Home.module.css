@@ -1,0 +1,81 @@
+.home {
+     margin: 20px 10px;
+     position: relative;
+}
+
+.users-table {
+     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+     border-radius: 5px;
+}
+
+.users-table th {
+     font-size: 17px;
+}
+
+.users-table>tbody>tr>td {
+     padding: 10px !important;
+}
+
+.users-table>thead>tr>th:nth-child(4),
+.users-table>tbody>tr>td:nth-child(4){
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.users-table>tbody>tr:nth-of-type(odd) {
+     background-color: #f0f0f0;
+}
+
+.users-table>tbody>tr>td:first-child {
+     color: teal !important;
+     font-weight: 600;
+     padding-left: 25px !important;
+}
+
+.users-table button {
+     background-color: #2b9bcf;
+     border: 1px solid transparent;
+     color: #fff;
+     display: flex;
+     gap: 5px;
+     justify-content: center;
+     align-items: center;
+     transition: border, background-color, color 400ms ease;
+}
+
+.users-table button:hover {
+     border: 2px solid #2b9bcf;
+     background-color: transparent;
+     color: #2b9bcf;
+}
+
+
+.download-btn {
+     position: fixed !important;
+     bottom: 30px;
+     right: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+     z-index: 100;
+     background-color: #ff0000 !important;
+     color: #fff !important;
+     border-radius: 0 !important;
+     cursor: pointer;
+}
+
+
+.update-form {
+     padding: 25px 15px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+.update-form button {
+     background-color: #2b9bcf !important;
+     color: #fff !important;
+     border-radius: 0 !important;
+     cursor: pointer;
+}
